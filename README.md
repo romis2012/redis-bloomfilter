@@ -1,4 +1,4 @@
-# bloomfilter
+# redis-bloomfilter
 Simple Redis-backed bloom filter.
 Based on [bloomfilter-redis](https://github.com/xupeng/bloomfilter-redis) project, 
 but has no limit to 2<sup>32</sup>-1 (512 MB) filter size (number of bits).
